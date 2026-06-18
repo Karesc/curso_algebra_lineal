@@ -8,31 +8,32 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+title: Álgebra Lineal
+tagline: Facultad de Ciencias, UNAM. 
+description: Sitio web del curso de Álgebra Lineal. Aquí encontrarás el programa del curso, material de apoyo, recursos complementarios y algunas animaciones interactivas que te ayudarán a desarrollar una mejor intuición sobre los conceptos fundamentales. También se incorporarán herramientas computacionales que te permitirán explorar las ideas de manera visual y acercarte a métodos de trabajo utilizados en la ciencia y la investigación.
+author: Karen Escutia Solis
+
+baseurl: '/algebra-lineal'   # nombre de tu repositorio
+url: 'https://karenescutia.github.io'   # cambia por tu usuario de GitHub
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.12.0
-color_scheme: light
+
+color_scheme: dark
 search_enabled: true
 heading_anchors: true
 permalink: pretty
+
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+  GitHub del curso:
+    - 'https://github.com/karenescutia/algebra-lineal'
+
+footer_content: '© 2026 Karen Escutia Solis. Material académico para uso educativo.'
 
 # Collections for website data
 collections:
@@ -43,7 +44,7 @@ collections:
 # Default layouts for each collection type
 defaults:
   - scope:
-      path: ''
+      path:''
       type: staffers
     values:
       layout: staffer
@@ -51,7 +52,7 @@ defaults:
       subpath: '/assets/images/'
       width: 300
   - scope:
-      path: ''
+      path:''
       type: modules
     values:
       layout: module
