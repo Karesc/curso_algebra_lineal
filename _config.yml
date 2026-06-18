@@ -44,7 +44,7 @@ collections:
 # Default layouts for each collection type
 defaults:
   - scope:
-      path:''
+      path: ''
       type: staffers
     values:
       layout: staffer
@@ -52,7 +52,7 @@ defaults:
       subpath: '/assets/images/'
       width: 300
   - scope:
-      path:''
+      path: ''
       type: modules
     values:
       layout: module
