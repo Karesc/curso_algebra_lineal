@@ -1,7 +1,7 @@
 ---
 title: Programa
 nav_order: 2
-------------
+---
 
 # Programa del curso
 
